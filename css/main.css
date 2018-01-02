@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  Width: 100%;
+  padding: 0;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  font-family: Merriweather, serif;
+  color: #fff;
+  text-align: center;
+  background-color: #d05c2e;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: .5em;
+  color: #fff;
+}
+
+.buttons {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+.buttons li {
+  float: left;
+  width: 33.33%;
+  display: inline-block;
+}
+
+a {
+  background-color: #d05c2e;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em;
+  font-size: 1.125rem;
+  display: block;
+  border: 1px solid #a63f38;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
+
+.grain-left {
+  float: left;
+  padding: .5em 0 0;
+  width: 40px;
+}
+
+.grain-right {
+  float: right;
+  padding: .5em 0 0;
+  width: 40px;
+}
+
+ul {
+  overflow: hidden;
+  padding: 0;
+}
